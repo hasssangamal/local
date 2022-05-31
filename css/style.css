@@ -1,0 +1,37 @@
+.cl1
+{
+    
+    background-color: grey;
+}
+.cl2
+{
+    background-color: red;
+    color: white;
+}
+.cl3
+{
+    background-color: black;
+    color: white;
+}
+.cl4
+{
+    background-color: wheat;
+    color: white;
+}
+.go
+{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+body{
+    height: 2000px;
+}

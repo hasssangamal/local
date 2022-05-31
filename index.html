@@ -1,0 +1,86 @@
+<!Doctype html>
+<html.lang="eng">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport"content="width=device-width,inital-scale=0.1/">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/normalize.css">
+     <link rel="stylesheet"href="css/all.min.css">
+     <style>
+          body {
+        background-color: #eee;
+      }
+      ul {
+        padding: 0;
+        margin: 0;
+        background-color: #ddd;
+        margin: 20px auto;
+        padding: 20px;
+        width: 400px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+      }
+      ul li {
+        width: 60px;
+        height: 60px;
+        border: 2px solid transparent;
+        opacity: 0.4;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      ul li.active,
+      ul li:hover {
+        opacity: 1;
+      }
+      ul li:first-child {
+        background-color: red;
+      }
+      ul li:nth-child(2) {
+        background-color: green;
+      }
+      ul li:nth-child(3) {
+        background-color: blue;
+      }
+      ul li:nth-child(4) {
+        background-color: black;
+      }
+      .experiment {
+        background-color: red;
+        width: 600px;
+        height: 300px;
+        margin: 20px auto;
+      }
+     </style>
+      
+    </head>
+<body >
+   <div>
+       <button class="cl1" onclick="hassan('grey')">grey</button>
+       <button class="cl2" onclick="hassan('red')">red</button>
+       <button class="cl3" onclick="hassan('black')">black</button>
+       <button class="cl4" onclick="hassan('white')">white</button>
+   </div>
+   <input type="password" id="s">
+   <button class="cl4" onclick="aaz()">ffdd</button>
+   <div id="round" onclick="dw();"></div>
+   <div class="clock"></div>
+   <ul>
+    <li class="active" data-color="red"></li>
+    <li data-color="green"></li>
+    <li data-color="blue"></li>
+    <li data-color="black"></li>
+  </ul>
+  <div class="experiment"></div>
+  <input type="text" id="ki">
+  <input type="hidden" id="ki2">
+  <button id="kl" onclick="jh()"> ad to list</button>
+  <button id="uy"onclick="up()" style="display: none;">update</button>
+
+  <ul id="res">
+
+  </ul>
+
+<script src="nan.js"></script>
+</body>
+</html>
